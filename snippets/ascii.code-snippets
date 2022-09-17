@@ -1,0 +1,36 @@
+{
+    "hyphen ascii": {
+        "prefix": "-",
+        "body": [
+            "&#00045;"
+        ],
+        "description": "creates non-breakable - hyphen ascii code for email template"
+    },
+
+    "star ascii": {
+        "prefix": "*",
+        "body": [
+            "&#00042;"
+        ],
+        "description": "creates star ascii code * for email template"
+    },
+
+    "and ascii": {
+        "prefix": "&",
+        "body": [
+            "&#00038;"
+        ],
+        "description": "creates & ascii code for email template"
+    },
+
+    "tm ascii": {
+        "prefix": "TM",
+        "body": [
+            "&#08482;"
+        ],
+        "description": "creates TM ascii code for email template"
+    },
+
+  
+
+}

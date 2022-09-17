@@ -1,0 +1,30 @@
+{
+  "name": "Approved Email Template Tokens",
+  "displayName": "Token Snippet",
+  "description": "Simple token code snippets generator",
+  "version": "0.0.1",
+  "publisher": "Rizwan Siddiqui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rizwan116/something"
+  },
+  "icon": "./logo.png",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/ascii.code-snippets"
+      }
+    ]
+  }
+}

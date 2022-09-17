@@ -1,0 +1,182 @@
+{
+    "username token": {
+        "prefix": "username",
+        "body": [
+            "{{userName}}"
+        ],
+        "description": "creates tokens for email template"
+    },
+
+    "userTitle token": {
+        "prefix": "usertitle",
+        "body": [
+            "{{User.Title}}"
+        ],
+        "description": "creates usertitle tokens for email template"
+    },
+
+    "userPhone token": {
+        "prefix": "userphone",
+        "body": [
+            "{{User.Phone}}"
+        ],
+        "description": "creates userphone tokens for email template"
+    },
+
+    "userFirstName token": {
+        "prefix": "userfirstname",
+        "body": [
+            "{{accFname}}"
+        ],
+        "description": "creates userFirstName tokens for email template"
+    },
+
+    "userLastName token": {
+        "prefix": "userlastname",
+        "body": [
+            "{{accLname}}"
+        ],
+        "description": "creates userLastName tokens for email template"
+    },
+
+    "userEmailAddress token": {
+        "prefix": ["useremailaddress", "useremail"],
+        "body": [
+            "{{userEmailAddress}}"
+        ],
+        "description": "creates userEmailAddress tokens for email template"
+    },
+
+    "userAccountTitle token": {
+        "prefix": ["usertitle", "useraccount"],
+        "body": [
+            "{{accTitle}}"
+        ],
+        "description": "creates userAccountTitle tokens for email template"
+    },
+
+    "unsubscribe token": {
+        "prefix": "unsubscribe",
+        "body": [
+            "{{unsubscribe_product_link}}"
+        ],
+        "description": "creates unsubscribe tokens for email template"
+    },
+
+    "fragment token": {
+        "prefix": "fragment",
+        "body": [
+            "{{insertEmailFragments}}",  
+
+        ],
+        "description": "creates fragment tokens for email template"
+    },
+    "fragmentmin token": {
+        "prefix": "fragmentmin",
+        "body": [
+             "{{insertEmailFragments[Minimum,Maximum]}}" ,
+
+        ],
+        "description": "creates fragment minimum tokens for email template"
+    },
+
+    "fragmentTemplate token": {
+        "prefix": "fragmenttemplate",
+        "body": [
+            "{{emailTemplateFragment}}" ,
+
+        ],
+        "description": "creates fragmentTemplate tokens for email template"
+    },
+
+    "userPhoto token": {
+        "prefix": "userphoto",
+        "body": [
+            "{{userPhoto}}",
+
+        ],
+        "description": "creates userPhoto tokens for email template"
+    },
+
+    "addToCalendar token": {
+        "prefix": ["addtocalender", "calender", "addcalender", "calendertoken"],
+        "body": [
+            "{{addToCalendar}}",
+
+        ],
+        "description": "creates addToCalendar tokens for email template"
+    },
+
+    "Zoom URLs in invitations token": {
+        "prefix": ["zoomurl", "zoomjoin", "inserzoom", "zoomurltoken"],
+        "body": [
+            "{{insertEngageAndZoomJoinURL[Language Code]}}",
+
+        ],
+        "description": "creates Zoom URLs in invitations tokens for email template"
+    },
+
+    "Zoom dial-in numbers token": {
+        "prefix": ["zoomdial", "zoomnumber",],
+        "body": [
+            "{{insertZoomDialInNumbers[Language Code]}}",
+
+        ],
+        "description": "creates Zoom dial-in numbers invitations tokens for email template"
+    },
+
+    "customText token": {
+        "prefix": "customtext",
+        "body": [
+            "{{customText()}}", 
+
+        ],
+        "description": "creates customText tokens for email template"
+    },
+
+    "customLength token": {
+        "prefix":  "customtextlength",
+        "body": [
+            "{{customText(255)}}", 
+
+        ],
+        "description": "creates customLength tokens for email template"
+    },
+    
+    "customTextRequired token": {
+        "prefix":  "customtextrequired",
+        "body": [
+            "{{customText:Required}} ", 
+
+        ],
+        "description": "creates customTextRequired tokens for email template"
+    },
+
+    "customRichText token": {
+        "prefix":  "customrichtext",
+        "body": [
+            "{{customRichText}}", 
+
+        ],
+        "description": "creates customRichText tokens for email template Enables end users to add more versatile free text to an email through displaying a rich text area."
+    },
+    "unsubscribeAll token": {
+        "prefix":  "unsubscribeall",
+        "body": [
+            "{{unsubscribeAll}}", 
+
+        ],
+        "description": "creates unsubscribeAll tokens for email template"
+    },
+
+    "customTextOption token": {
+        "prefix": [ "customtextoption", "optioncustom"],
+        "body": [
+            "{{customText[Hello|Dear|Hi]}}", 
+
+        ],
+        "description": "creates customTextOption tokens for email template, renders to the end user as a picklist with the following values"
+    },
+    
+
+}
